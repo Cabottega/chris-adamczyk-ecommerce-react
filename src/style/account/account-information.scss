@@ -22,10 +22,7 @@
         grid-template-columns: 
             [s cancel-s] 137px 
             [cancel-e] 40px 
-            [update-s] 1fr 
-            [m] 1fr 
-            [update-e] 1fr 
-            [e];
+            [update-s] 1fr [m] 1fr [update-e] 1fr [e];
         grid-row-gap: 15px;
     }
 }
