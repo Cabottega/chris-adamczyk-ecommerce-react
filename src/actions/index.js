@@ -1,6 +1,11 @@
 import { setHeaderLinks, setNavbarLinks, changeNavbarActive } from './headernavbar';
 import { fetchUserPurchases, setPurchaseDetail } from './user';
-import { fetchShopCategories, fetchShopProducts, filterProductsWithCategoryId } from './shop';
+import { 
+    fetchShopCategories, 
+    fetchShopProducts, 
+    filterProductsWithCategoryId, 
+    filterProductsWithQuery 
+} from './shop';
 
 
 export {
@@ -11,5 +16,6 @@ export {
     setPurchaseDetail,
     fetchShopCategories,
     fetchShopProducts,
-    filterProductsWithCategoryId
+    filterProductsWithCategoryId,
+    filterProductsWithQuery
 };
