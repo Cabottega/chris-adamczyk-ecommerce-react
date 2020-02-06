@@ -32,7 +32,7 @@ export function fetchCartProducts() {
                     _id: 1,
                     title: 'Graph Database',
                     description: 'The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. ... The running speed starts slowly, but gets faster each minute after you hear this signal.',
-                    price: 1.99,
+                    price: 2.55,
                     belongsTo: [0, 6]
                 },
                 quantity: 1
