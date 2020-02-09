@@ -19,5 +19,5 @@ export {
     fetchShopProducts,
     filterProductsWithCategoryId,
     filterProductsWithQuery,
-    addCartProduct
+    addCartProduct    
 };

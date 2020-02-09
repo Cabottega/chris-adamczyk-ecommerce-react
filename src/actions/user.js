@@ -5,6 +5,8 @@ import {
     ADD_CART_PRODUCT    
 } from './types';
 
+
+
 export function setPurchaseDetail(_id) {
     return ({
         type: SET_PURCHASE_DETAIL,

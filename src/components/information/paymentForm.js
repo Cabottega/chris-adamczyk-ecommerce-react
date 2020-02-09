@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { reduxForm, Field } from 'redux-form';
+import { connect } from 'react-redux'; 
 
 import history from '../../history';
 
@@ -63,8 +64,8 @@ class PaymentForm extends Component {
 
                 <div className='payment-form__shipping-info shipping-info'>
                     <UnderlinedTitle className='shipping-info__title' title='Shipping To'/>
-                    <div className='shipping-info__name small-text'>Joe Doe</div>
-                    <div className='shipping-info__address small-text'>1234 AnyWhere Street</div>
+                    <div className='shipping-info__name small-text'>Jane Dune</div>
+                    <div className='shipping-info__address small-text'>1234 Anywhere Street</div>
                 </div>
             </form>
         )
@@ -74,5 +75,6 @@ class PaymentForm extends Component {
 PaymentForm = reduxForm({
     form: 'PaymentForm'
 })(PaymentForm);
+
 
 export default PaymentForm;
