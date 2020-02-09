@@ -11,15 +11,19 @@
 }
 
 .shipping-form {
+    
     &__name {
         grid-row: name-s/name-e;
     }
+    
     &__address {
         grid-row: address-s/address-e;
     }
+    
     &__city {
         grid-row: city-s/city-e;
     }
+    
     &__state,
     &__zipcode {
         grid-row: state-zip-s/state-zip-e;
@@ -28,22 +32,32 @@
             width: 200px;
         }
     }
+    
     &__zipcode {
         transform: translateX(226px);
     }
+    
     &__line {
         grid-row: line-s/line-e;
         grid-column: 1/-1;
         border-top: 1px solid #ccc;
         margin-bottom: 24px;
     }
+    
     &__back {
         grid-row: buttons-s/buttons-e;
         grid-column: back-s/back-e;
     }
+    
     &__use-this-address {
         grid-row: buttons-s/buttons-e;
         grid-column: use-this-address-s/use-this-address-e;
+    }
+    
+    &__order-summary  {
+        grid-row: name-s;
+        grid-column: use-this-address-e/-1;
+        justify-self: end;
     }
 }
 
